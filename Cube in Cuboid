@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<math.h>
+main()
+{
+    int a,l,b,h,vocube,vocuboid,volumeleft;
+    printf("Enter the side3 of cube\n");
+    scanf("%d",&a);
+    vocube= pow(a,3);
+    printf("Enter the length,height and breadth if the cuboid\n");
+    scanf("%d %d %d",&l,&b,&h);
+    vocuboid=l*b*h;
+    volumeleft=vocuboid-vocube;
+    printf("Remaining volume is %d",volumeleft);
+
+}
