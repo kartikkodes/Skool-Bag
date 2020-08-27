@@ -1,0 +1,14 @@
+  
+#include<stdio.h>
+main()
+{
+	float h,b,a;                                        //h=height  b=base  a=area
+	printf("Enter the base lenght\n");                  // if you dont use float but int, then dont input the value in decimal form.
+	scanf("%f",&b);
+	printf("Enter the height\n");
+	scanf("%f",&h);
+	
+	a=0.5*b*h;
+	
+	printf("The area of the traingle is %f",a);
+}
