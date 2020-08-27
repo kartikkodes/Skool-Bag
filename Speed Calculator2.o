@@ -1,0 +1,15 @@
+  
+#include<stdio.h>
+#include<math.h>
+main()
+{
+	float dist,time,speed;
+	printf("Enter the distance to be covered[in km]\n");
+	scanf("%f",&dist);
+	printf("Enter the time you wanna spend reaching the destination[in hours]\n");
+	scanf("%f",&time);
+	
+	speed=dist/time;
+	
+	printf("The speed you should achieve is %.2f",speed);
+}
